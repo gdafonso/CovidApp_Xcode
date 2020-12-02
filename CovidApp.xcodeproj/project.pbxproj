@@ -16,6 +16,7 @@
 		F555CB622577F81400C89B81 /* Poblacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB612577F81400C89B81 /* Poblacion.swift */; };
 		F555CB6A2577FCA300C89B81 /* Poblaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB692577FCA300C89B81 /* Poblaciones.swift */; };
 		F555CB71257805A400C89B81 /* LeerCsv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB70257805A400C89B81 /* LeerCsv.swift */; };
+		F555CB7525780DE300C89B81 /* File in Resources */ = {isa = PBXBuildFile; fileRef = F555CB7425780DE300C89B81 /* File */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F555CB612577F81400C89B81 /* Poblacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poblacion.swift; sourceTree = "<group>"; };
 		F555CB692577FCA300C89B81 /* Poblaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poblaciones.swift; sourceTree = "<group>"; };
 		F555CB70257805A400C89B81 /* LeerCsv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeerCsv.swift; sourceTree = "<group>"; };
+		F555CB7425780DE300C89B81 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		F555CB6C2577FF4600C89B81 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F555CB7425780DE300C89B81 /* File */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F555CB7525780DE300C89B81 /* File in Resources */,
 				F555CB582577F28200C89B81 /* LaunchScreen.storyboard in Resources */,
 				F555CB552577F28200C89B81 /* Assets.xcassets in Resources */,
 				F555CB532577F25300C89B81 /* Main.storyboard in Resources */,
