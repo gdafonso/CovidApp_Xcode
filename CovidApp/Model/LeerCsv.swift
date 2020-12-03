@@ -33,8 +33,8 @@ class LeerCsv  {
     
             if columns.count == 5 {
                 let nombre = columns[1]
-                let cp = columns[4]
-                let geopos = CLLocationCoordinate2DMake(Double(columns[2].replacingOccurrences(of: ",", with: ".", options: .literal, range: nil)) ?? 0.0,Double(columns[3].replacingOccurrences(of: ",", with: ".", options: .literal, range: nil)) ?? 0.0)
+                let cp = columns[2]
+                let geopos = CLLocationCoordinate2DMake(Double(columns[3].replacingOccurrences(of: ",", with: ".", options: .literal, range: nil)) ?? 0.0,Double(columns[4].replacingOccurrences(of: ",", with: ".", options: .literal, range: nil)) ?? 0.0)
                 let provincia = columns[0]
             
                 let poblacion = Poblacion (nombre: nombre, cp: cp, geopos: geopos, provincia: provincia)

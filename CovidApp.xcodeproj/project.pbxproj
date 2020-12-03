@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F54A06312578E8B800FB13B7 /* Restriccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54A06302578E8B800FB13B7 /* Restriccion.swift */; };
 		F555CB4C2577F25300C89B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB4B2577F25300C89B81 /* AppDelegate.swift */; };
 		F555CB4E2577F25300C89B81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB4D2577F25300C89B81 /* SceneDelegate.swift */; };
 		F555CB502577F25300C89B81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB4F2577F25300C89B81 /* ViewController.swift */; };
@@ -19,11 +20,11 @@
 		F555CB7825780E7C00C89B81 /* poblaciones.csv in Resources */ = {isa = PBXBuildFile; fileRef = F555CB7725780E7C00C89B81 /* poblaciones.csv */; };
 		F555CB7C257814D500C89B81 /* Provincia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB7B257814D500C89B81 /* Provincia.swift */; };
 		F555CB7F2578162E00C89B81 /* Provincias.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB7E2578162E00C89B81 /* Provincias.swift */; };
-		F555CB82257817F800C89B81 /* Restriccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB81257817F800C89B81 /* Restriccion.swift */; };
 		F555CB852578186D00C89B81 /* Restricciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB842578186D00C89B81 /* Restricciones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F54A06302578E8B800FB13B7 /* Restriccion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restriccion.swift; sourceTree = "<group>"; };
 		F555CB482577F25300C89B81 /* CovidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F555CB4B2577F25300C89B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F555CB4D2577F25300C89B81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		F555CB7725780E7C00C89B81 /* poblaciones.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poblaciones.csv; sourceTree = "<group>"; };
 		F555CB7B257814D500C89B81 /* Provincia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provincia.swift; sourceTree = "<group>"; };
 		F555CB7E2578162E00C89B81 /* Provincias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provincias.swift; sourceTree = "<group>"; };
-		F555CB81257817F800C89B81 /* Restriccion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restriccion.swift; sourceTree = "<group>"; };
 		F555CB842578186D00C89B81 /* Restricciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restricciones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,8 +93,8 @@
 				F555CB70257805A400C89B81 /* LeerCsv.swift */,
 				F555CB7B257814D500C89B81 /* Provincia.swift */,
 				F555CB7E2578162E00C89B81 /* Provincias.swift */,
-				F555CB81257817F800C89B81 /* Restriccion.swift */,
 				F555CB842578186D00C89B81 /* Restricciones.swift */,
+				F54A06302578E8B800FB13B7 /* Restriccion.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,11 +179,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F555CB502577F25300C89B81 /* ViewController.swift in Sources */,
+				F54A06312578E8B800FB13B7 /* Restriccion.swift in Sources */,
 				F555CB7F2578162E00C89B81 /* Provincias.swift in Sources */,
 				F555CB622577F81400C89B81 /* Poblacion.swift in Sources */,
 				F555CB6A2577FCA300C89B81 /* Poblaciones.swift in Sources */,
 				F555CB7C257814D500C89B81 /* Provincia.swift in Sources */,
-				F555CB82257817F800C89B81 /* Restriccion.swift in Sources */,
 				F555CB4C2577F25300C89B81 /* AppDelegate.swift in Sources */,
 				F555CB71257805A400C89B81 /* LeerCsv.swift in Sources */,
 				F555CB4E2577F25300C89B81 /* SceneDelegate.swift in Sources */,

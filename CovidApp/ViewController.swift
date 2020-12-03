@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
         // Rellenamos el array con las poblaciones
         for item in listapoblaciones{
-            if item.cp.contains(txtCP.text ?? "") {
+            if item.cp == txtCP.text {
                 lblPoblacion.text = item.nombre
                 lblCoordenadas.text = String(item.geopos.latitude) + "," + String(item.geopos.longitude)
                 lblProvincia.text = item.provincia
