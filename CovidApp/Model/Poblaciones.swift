@@ -8,8 +8,10 @@
 import Foundation
 
 class Poblaciones {
+    // Definición de la colección de poblaciones de tipo población
     private var _poblaciones: [Poblacion] = []
     
+    // Métodos para la colección
     var poblaciones: [Poblacion] {
         get {
             return _poblaciones
@@ -19,13 +21,14 @@ class Poblaciones {
         }
     }
 
+    // Incializador desginado
     init() {
-        //cargar fichero CSV con poblacion y provincia
+        // Lectura del fichero CSV con los datos
         let fichero = LeerCsv.init()
-        let listapoblaciones = fichero.poblaciones
         
-        for item in listapoblaciones {
+        // Para cada población
+        for item in fichero.poblaciones {
             //poblaciones.append(item)
         }
-    }
+    }    
 }

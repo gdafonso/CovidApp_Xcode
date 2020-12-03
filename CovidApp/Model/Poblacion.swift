@@ -9,11 +9,13 @@ import Foundation
 import CoreLocation
 
 class Poblacion {
+    // Atributos de la clase
     private var _nombre: String
     private var _cp: String
-    private var _geopos: CLLocationCoordinate2D
+    private var _geopos: CLLocationCoordinate2D //Tipo CLLocation para guardar las coordenadas lat y lon
     private var _provincia: String
     
+    // Métodos para el atributo nombre
     var nombre: String {
         get {
             return _nombre
@@ -23,6 +25,7 @@ class Poblacion {
         }
     }
 
+    // Métodos para el atributo código postal
     var cp: String {
         get {
             return _cp
@@ -32,6 +35,7 @@ class Poblacion {
         }
     }
     
+    // Métodos para el atributo de las coordenadas
     var geopos: CLLocationCoordinate2D {
         get {
             return _geopos
@@ -40,7 +44,8 @@ class Poblacion {
             return _geopos = newValue
         }
     }
-
+    
+    // Métodos para el atributo provincia
     var provincia: String {
         get {
             return _provincia
@@ -50,6 +55,7 @@ class Poblacion {
         }
     }
 
+    // Inicializador designado
     init (nombre: String, cp: String, geopos: CLLocationCoordinate2D, provincia: String) {
         self._nombre = nombre
         self._cp = cp
@@ -57,5 +63,9 @@ class Poblacion {
         self._provincia = provincia
     }
     
+    // Inicializador de conveniencia
+    convenience init() {
+        self.init(nombre: "", cp: "", geopos: CLLocationCoordinate2DMake(0.0, 0.0), provincia: "")
+        }
 
 }

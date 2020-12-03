@@ -8,6 +8,7 @@
 import Foundation
 
 enum Restriccion {
+    // Atributtos de la clase de tipo Enum
     case Temporal
     case Restauracion
     case Reuniones
