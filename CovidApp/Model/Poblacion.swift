@@ -51,13 +51,11 @@ class Poblacion {
     }
 
     init (nombre: String, cp: String, geopos: CLLocationCoordinate2D, provincia: String) {
-        self.nombre = _nombre
-        self.cp = _cp
-        self.geopos = _geopos
-        self.provincia = _provincia
+        self._nombre = nombre
+        self._cp = cp
+        self._geopos = geopos
+        self._provincia = provincia
     }
     
-    convenience init(nombre: String, cp: String) {
-        self.init (nombre: _nombre, cp: _cp, geopos: _geopos, provincia: "")
-    }
+
 }

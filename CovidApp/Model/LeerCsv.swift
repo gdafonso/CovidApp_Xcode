@@ -31,13 +31,13 @@ class LeerCsv  {
         for row in rows{
             let columns = row.components(separatedBy: ";")
     
-            if columns.count == 4 {
-                let nombre = columns[0]
-                let postal = columns[1]
-                let geopos = CLLocationCoordinate2DMake(Double(columns[2]) ?? 0.0,Double(columns[3]) ?? 0.0)
-                let provincia = columns[4]
+            if columns.count == 5 {
+                let nombre = columns[1]
+                let cp = columns[4]
+                let geopos = CLLocationCoordinate2DMake(Double(columns[2].replacingOccurrences(of: ",", with: ".", options: .literal, range: nil)) ?? 0.0,Double(columns[3].replacingOccurrences(of: ",", with: ".", options: .literal, range: nil)) ?? 0.0)
+                let provincia = columns[0]
             
-                let poblacion = Poblacion (nombre: nombre, cp: postal, geopos: geopos, provincia: provincia)
+                let poblacion = Poblacion (nombre: nombre, cp: cp, geopos: geopos, provincia: provincia)
                     
                 poblaciones.append(poblacion)
             }

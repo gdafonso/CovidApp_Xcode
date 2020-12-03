@@ -8,19 +8,24 @@
 import Foundation
 
 class Poblaciones {
-    private var _lista: [Poblacion]
+    private var _poblaciones: [Poblacion] = []
     
-    var lista: [Poblacion] {
+    var poblaciones: [Poblacion] {
         get {
-            return _lista
+            return _poblaciones
         }
         set {
-            return _lista = newValue
+            return _poblaciones = newValue
         }
     }
 
     init() {
         //cargar fichero CSV con poblacion y provincia
+        let fichero = LeerCsv.init()
+        let listapoblaciones = fichero.poblaciones
         
+        for item in listapoblaciones {
+            //poblaciones.append(item)
+        }
     }
 }
