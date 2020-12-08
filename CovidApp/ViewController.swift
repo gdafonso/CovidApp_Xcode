@@ -10,9 +10,10 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var lblCoordenadas: UILabel!
-    @IBOutlet weak var txtCP: UITextField!
-    @IBOutlet weak var lblProvincia: UILabel!
     @IBOutlet weak var lblPoblacion: UILabel!
+    @IBOutlet weak var lblProvincia: UILabel!
+    @IBOutlet weak var txtCP: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -32,5 +33,11 @@ class ViewController: UIViewController {
                 lblProvincia.text = item.provincia
             }
         }
+    }
+
+    @IBAction func btnGoToLogin(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Login", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Login") as UIViewController
+        present(vc, animated: true, completion: nil)
     }
 }
