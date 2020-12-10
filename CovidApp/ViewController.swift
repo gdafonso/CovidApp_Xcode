@@ -22,15 +22,14 @@ class ViewController: UIViewController {
  
     @IBAction func btnComprobar(_ sender: Any, forEvent event: UIEvent) {
         // Leemos el CSV completo
-        let fichero = LeerCsv.init()
-        let listapoblaciones = fichero.poblaciones
+        let poblaciones = Poblaciones.init()
         
         // Rellenamos el array con las poblaciones
-        for item in listapoblaciones{
-            if item.cp == txtCP.text {
+        for item in poblaciones.poblaciones{
+            if item.codPostal == txtCP.text {
                 lblPoblacion.text = item.nombre
                 lblCoordenadas.text = String(item.geopos.latitude) + "," + String(item.geopos.longitude)
-                lblProvincia.text = item.provincia
+                lblProvincia.text = item.nombreProvincia
             }
         }
     }

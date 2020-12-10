@@ -14,14 +14,16 @@ import CoreLocation
 
 /// Clase Población de que define los datos de la población elegida
 class Poblacion {
-    /// Nombre de la población
+    private var _codAutonomia: String
+    private var _codProvincia: String
+    private var _codMunicipio: String
+    private var _codDc: String
+    private var _codIne: String
+    private var _codPostal: String
     private var _nombre: String
-    /// Código postal de la población
-    private var _cp: String
-    /// Coordenadas de la población en 2D (latitud y longitud)
+    private var _nombreComunidad: String
+    private var _nombreProvincia: String
     private var _geopos: CLLocationCoordinate2D
-    /// Provincia a la que pertenece la población
-    private var _provincia: String
     
     /// Definición de los métodos para el atributo nombre
     var nombre: String {
@@ -36,14 +38,14 @@ class Poblacion {
     }
 
     /// Definición de los métodos para el atributo código postal
-    var cp: String {
+    var codPostal: String {
         /// Método get
         get {
-            return _cp
+            return _codPostal
         }
         /// Método set
         set {
-            return _cp = newValue
+            return _codPostal = newValue
         }
     }
     
@@ -60,14 +62,14 @@ class Poblacion {
     }
     
     /// Definición de los métodos para el atributo provincia
-    var provincia: String {
+    var nombreProvincia: String {
         /// Método get
         get {
-            return _provincia
+            return _nombreProvincia
         }
         /// Método set
         set {
-            return _provincia = newValue
+            return _nombreProvincia = newValue
         }
     }
 
@@ -82,12 +84,18 @@ class Poblacion {
         - geopos: CLLocation de coordenadas 2D que indica la latitud y longitud de la población
         - provincia: String con la provincia a la que pertenece la población
     */
-    init (nombre: String, cp: String, geopos: CLLocationCoordinate2D, provincia: String) {
+    init (codAutonomia: String, codProvincia: String, codMunicipio: String, codDc: String, codIne: String, codPostal: String, nombre: String, nombreComunidad: String, nombreProvincia: String, geopos: CLLocationCoordinate2D) {
         /// Asignación de valores
+        self._codAutonomia = codAutonomia
+        self._codProvincia = codProvincia
+        self._codMunicipio = codMunicipio
+        self._codDc = codDc
+        self._codIne = codIne
+        self._codPostal = codPostal
         self._nombre = nombre
-        self._cp = cp
+        self._nombreComunidad = nombreComunidad
+        self._nombreProvincia = nombreProvincia
         self._geopos = geopos
-        self._provincia = provincia
     }
     
     /**
@@ -97,7 +105,7 @@ class Poblacion {
     */
     convenience init() {
         // Asignación de parámetros por defecto
-        self.init(nombre: "", cp: "", geopos: CLLocationCoordinate2DMake(0.0, 0.0), provincia: "")
+        self.init(codAutonomia: "", codProvincia: "", codMunicipio: "", codDc: "", codIne: "", codPostal: "", nombre: "", nombreComunidad: "", nombreProvincia: "", geopos: CLLocationCoordinate2DMake(0.0, 0.0))
         }
 
 }

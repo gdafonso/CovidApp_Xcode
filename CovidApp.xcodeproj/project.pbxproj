@@ -16,11 +16,11 @@
 		F555CB582577F28200C89B81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F555CB562577F28200C89B81 /* LaunchScreen.storyboard */; };
 		F555CB622577F81400C89B81 /* Poblacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB612577F81400C89B81 /* Poblacion.swift */; };
 		F555CB6A2577FCA300C89B81 /* Poblaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB692577FCA300C89B81 /* Poblaciones.swift */; };
-		F555CB71257805A400C89B81 /* LeerCsv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB70257805A400C89B81 /* LeerCsv.swift */; };
 		F555CB7825780E7C00C89B81 /* poblaciones.csv in Resources */ = {isa = PBXBuildFile; fileRef = F555CB7725780E7C00C89B81 /* poblaciones.csv */; };
 		F555CB7C257814D500C89B81 /* Provincia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB7B257814D500C89B81 /* Provincia.swift */; };
 		F555CB7F2578162E00C89B81 /* Provincias.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB7E2578162E00C89B81 /* Provincias.swift */; };
 		F555CB852578186D00C89B81 /* Restricciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB842578186D00C89B81 /* Restricciones.swift */; };
+		F58C43A325822825001ADF18 /* PoblacionesFull.csv in Resources */ = {isa = PBXBuildFile; fileRef = F58C43A225822825001ADF18 /* PoblacionesFull.csv */; };
 		F5904872257BAAB800C81EB4 /* covid.png in Resources */ = {isa = PBXBuildFile; fileRef = F5904871257BAAB800C81EB4 /* covid.png */; };
 		F5904878257CE65700C81EB4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5904877257CE65700C81EB4 /* GradientView.swift */; };
 		F5A5C3D4257FF68E006838C6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A5C3D3257FF68E006838C6 /* Login.storyboard */; };
@@ -39,11 +39,11 @@
 		F555CB592577F28200C89B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F555CB612577F81400C89B81 /* Poblacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poblacion.swift; sourceTree = "<group>"; };
 		F555CB692577FCA300C89B81 /* Poblaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poblaciones.swift; sourceTree = "<group>"; };
-		F555CB70257805A400C89B81 /* LeerCsv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeerCsv.swift; sourceTree = "<group>"; };
 		F555CB7725780E7C00C89B81 /* poblaciones.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poblaciones.csv; sourceTree = "<group>"; };
 		F555CB7B257814D500C89B81 /* Provincia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provincia.swift; sourceTree = "<group>"; };
 		F555CB7E2578162E00C89B81 /* Provincias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provincias.swift; sourceTree = "<group>"; };
 		F555CB842578186D00C89B81 /* Restricciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restricciones.swift; sourceTree = "<group>"; };
+		F58C43A225822825001ADF18 /* PoblacionesFull.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PoblacionesFull.csv; sourceTree = "<group>"; };
 		F5904871257BAAB800C81EB4 /* covid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = covid.png; sourceTree = "<group>"; };
 		F5904877257CE65700C81EB4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F5A5C3D3257FF68E006838C6 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,6 @@
 			children = (
 				F555CB612577F81400C89B81 /* Poblacion.swift */,
 				F555CB692577FCA300C89B81 /* Poblaciones.swift */,
-				F555CB70257805A400C89B81 /* LeerCsv.swift */,
 				F555CB7B257814D500C89B81 /* Provincia.swift */,
 				F555CB7E2578162E00C89B81 /* Provincias.swift */,
 				F555CB842578186D00C89B81 /* Restricciones.swift */,
@@ -114,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				F5904871257BAAB800C81EB4 /* covid.png */,
+				F58C43A225822825001ADF18 /* PoblacionesFull.csv */,
 				F555CB7725780E7C00C89B81 /* poblaciones.csv */,
 			);
 			path = Resources;
@@ -182,6 +182,7 @@
 				F555CB552577F28200C89B81 /* Assets.xcassets in Resources */,
 				F555CB7825780E7C00C89B81 /* poblaciones.csv in Resources */,
 				F555CB532577F25300C89B81 /* Main.storyboard in Resources */,
+				F58C43A325822825001ADF18 /* PoblacionesFull.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +202,6 @@
 				F555CB6A2577FCA300C89B81 /* Poblaciones.swift in Sources */,
 				F555CB7C257814D500C89B81 /* Provincia.swift in Sources */,
 				F555CB4C2577F25300C89B81 /* AppDelegate.swift in Sources */,
-				F555CB71257805A400C89B81 /* LeerCsv.swift in Sources */,
 				F555CB4E2577F25300C89B81 /* SceneDelegate.swift in Sources */,
 				F555CB852578186D00C89B81 /* Restricciones.swift in Sources */,
 			);
