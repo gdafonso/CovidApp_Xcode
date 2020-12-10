@@ -51,9 +51,9 @@ class LeerCsv  {
         }
     }
 
-    // Inicializador desginado
+    /// Inicializador desginado
     init(){
-        // Llamamos a la función para guardar los datos
+        /// Llamada a la función para guardar los datos
         CSVtoArray()
     }
 }

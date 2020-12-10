@@ -7,27 +7,31 @@
 
 import Foundation
 
+/// Clase Poblaciones que define el conjunto de poblaciones
 class Poblaciones {
-    // Definición de la colección de poblaciones de tipo población
+    /// Definición de la colección de poblaciones de tipo población
     private var _poblaciones: [Poblacion] = []
     
-    // Métodos para la colección
+    /// Métodos para la colección de poblaciones
     var poblaciones: [Poblacion] {
+        /// Método get
         get {
             return _poblaciones
         }
+        /// Método set
         set {
             return _poblaciones = newValue
         }
     }
 
-    // Incializador desginado
+    /// Incializador desginado
     init() {
-        // Lectura del fichero CSV con los datos
+        /// Lectura del fichero CSV con los datos
         let fichero = LeerCsv.init()
         
-        // Para cada población
+        /// Para cada población
         for item in fichero.poblaciones {
+            // TODO: Completar acción
             //poblaciones.append(item)
         }
     }    
