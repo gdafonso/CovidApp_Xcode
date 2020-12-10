@@ -26,6 +26,78 @@ class Poblacion {
     private var _geopos: CLLocationCoordinate2D
     
     /// Definición de los métodos para el atributo nombre
+    var codAutonomia: String {
+        /// Método get
+        get {
+            return _codAutonomia
+        }
+        /// Método set
+        set {
+            return _codAutonomia = newValue
+        }
+    }
+    
+    /// Definición de los métodos para el atributo nombre
+    var codProvincia: String {
+        /// Método get
+        get {
+            return _codProvincia
+        }
+        /// Método set
+        set {
+            return _codProvincia = newValue
+        }
+    }
+    
+    /// Definición de los métodos para el atributo nombre
+    var codMunicipio: String {
+        /// Método get
+        get {
+            return _codMunicipio
+        }
+        /// Método set
+        set {
+            return _codMunicipio = newValue
+        }
+    }
+
+    /// Definición de los métodos para el atributo nombre
+    var codDc: String {
+        /// Método get
+        get {
+            return _codDc
+        }
+        /// Método set
+        set {
+            return _codDc = newValue
+        }
+    }
+    
+    /// Definición de los métodos para el atributo nombre
+    var codIne: String {
+        /// Método get
+        get {
+            return _codIne
+        }
+        /// Método set
+        set {
+            return _codIne = newValue
+        }
+    }
+    
+    /// Definición de los métodos para el atributo nombre
+    var codPostal: String {
+        /// Método get
+        get {
+            return _codPostal
+        }
+        /// Método set
+        set {
+            return _codPostal = newValue
+        }
+    }
+    
+    /// Definición de los métodos para el atributo nombre
     var nombre: String {
         /// Método get
         get {
@@ -37,15 +109,27 @@ class Poblacion {
         }
     }
 
-    /// Definición de los métodos para el atributo código postal
-    var codPostal: String {
+    /// Definición de los métodos para el atributo nombre
+    var nombreComunidad: String {
         /// Método get
         get {
-            return _codPostal
+            return _nombreComunidad
         }
         /// Método set
         set {
-            return _codPostal = newValue
+            return _nombreComunidad = newValue
+        }
+    }
+    
+    /// Definición de los métodos para el atributo nombre
+    var nombreProvincia: String {
+        /// Método get
+        get {
+            return _nombreProvincia
+        }
+        /// Método set
+        set {
+            return _nombreProvincia = newValue
         }
     }
     
@@ -58,18 +142,6 @@ class Poblacion {
         /// Método set
         set {
             return _geopos = newValue
-        }
-    }
-    
-    /// Definición de los métodos para el atributo provincia
-    var nombreProvincia: String {
-        /// Método get
-        get {
-            return _nombreProvincia
-        }
-        /// Método set
-        set {
-            return _nombreProvincia = newValue
         }
     }
 
