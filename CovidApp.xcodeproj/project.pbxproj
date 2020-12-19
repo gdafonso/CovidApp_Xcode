@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F53BFE40258CCC4F00D14544 /* Casos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BFE3F258CCC4F00D14544 /* Casos.swift */; };
 		F54A06312578E8B800FB13B7 /* Restriccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54A06302578E8B800FB13B7 /* Restriccion.swift */; };
 		F555CB4C2577F25300C89B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB4B2577F25300C89B81 /* AppDelegate.swift */; };
 		F555CB4E2577F25300C89B81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB4D2577F25300C89B81 /* SceneDelegate.swift */; };
@@ -23,9 +24,11 @@
 		F58C43A325822825001ADF18 /* PoblacionesFull.csv in Resources */ = {isa = PBXBuildFile; fileRef = F58C43A225822825001ADF18 /* PoblacionesFull.csv */; };
 		F5904872257BAAB800C81EB4 /* covid.png in Resources */ = {isa = PBXBuildFile; fileRef = F5904871257BAAB800C81EB4 /* covid.png */; };
 		F5904878257CE65700C81EB4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5904877257CE65700C81EB4 /* GradientView.swift */; };
+		F5B34664258C09A7008225B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B34663258C09A7008225B4 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F53BFE3F258CCC4F00D14544 /* Casos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casos.swift; sourceTree = "<group>"; };
 		F54A06302578E8B800FB13B7 /* Restriccion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restriccion.swift; sourceTree = "<group>"; };
 		F555CB482577F25300C89B81 /* CovidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F555CB4B2577F25300C89B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		F58C43A225822825001ADF18 /* PoblacionesFull.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PoblacionesFull.csv; sourceTree = "<group>"; };
 		F5904871257BAAB800C81EB4 /* covid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = covid.png; sourceTree = "<group>"; };
 		F5904877257CE65700C81EB4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		F5B34663258C09A7008225B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				F555CB542577F28200C89B81 /* Assets.xcassets */,
 				F555CB562577F28200C89B81 /* LaunchScreen.storyboard */,
 				F555CB592577F28200C89B81 /* Info.plist */,
+				F5B34663258C09A7008225B4 /* LoginViewController.swift */,
 			);
 			path = CovidApp;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 				F555CB7E2578162E00C89B81 /* Provincias.swift */,
 				F555CB842578186D00C89B81 /* Restricciones.swift */,
 				F54A06302578E8B800FB13B7 /* Restriccion.swift */,
+				F53BFE3F258CCC4F00D14544 /* Casos.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,9 +199,11 @@
 				F555CB622577F81400C89B81 /* Poblacion.swift in Sources */,
 				F555CB6A2577FCA300C89B81 /* Poblaciones.swift in Sources */,
 				F555CB7C257814D500C89B81 /* Provincia.swift in Sources */,
+				F53BFE40258CCC4F00D14544 /* Casos.swift in Sources */,
 				F555CB4C2577F25300C89B81 /* AppDelegate.swift in Sources */,
 				F555CB4E2577F25300C89B81 /* SceneDelegate.swift in Sources */,
 				F555CB852578186D00C89B81 /* Restricciones.swift in Sources */,
+				F5B34664258C09A7008225B4 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
