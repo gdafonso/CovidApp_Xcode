@@ -21,10 +21,19 @@
 		F555CB7C257814D500C89B81 /* Provincia.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB7B257814D500C89B81 /* Provincia.swift */; };
 		F555CB7F2578162E00C89B81 /* Provincias.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB7E2578162E00C89B81 /* Provincias.swift */; };
 		F555CB852578186D00C89B81 /* Restricciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB842578186D00C89B81 /* Restricciones.swift */; };
+		F566396A259374ED003A6F20 /* RestriccionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5663969259374ED003A6F20 /* RestriccionesViewController.swift */; };
 		F58C43A325822825001ADF18 /* PoblacionesFull.csv in Resources */ = {isa = PBXBuildFile; fileRef = F58C43A225822825001ADF18 /* PoblacionesFull.csv */; };
 		F5904872257BAAB800C81EB4 /* covid.png in Resources */ = {isa = PBXBuildFile; fileRef = F5904871257BAAB800C81EB4 /* covid.png */; };
 		F5904878257CE65700C81EB4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5904877257CE65700C81EB4 /* GradientView.swift */; };
 		F5B34664258C09A7008225B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B34663258C09A7008225B4 /* LoginViewController.swift */; };
+		F5EF623025939A6100414515 /* doctor-sostenga-antiseptico-mascaras-su-mano_1157-31550.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF622B25939A5D00414515 /* doctor-sostenga-antiseptico-mascaras-su-mano_1157-31550.jpg */; };
+		F5EF623125939A6100414515 /* dos-colegas-tocandose-codos-al-aire-libre-pandemia_23-2148666394.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF622C25939A5D00414515 /* dos-colegas-tocandose-codos-al-aire-libre-pandemia_23-2148666394.jpg */; };
+		F5EF623225939A6100414515 /* vista-frontal-joven-mujer-sosteniendo-globos-colores_179666-8916.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF622D25939A5E00414515 /* vista-frontal-joven-mujer-sosteniendo-globos-colores_179666-8916.jpg */; };
+		F5EF623325939A6100414515 /* covid-19-concepto-salud-distanciamiento-social-chica-morena-atractiva-mascara-medica-que-senala-dedo-cara-blanco_1258-19147.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF622E25939A5E00414515 /* covid-19-concepto-salud-distanciamiento-social-chica-morena-atractiva-mascara-medica-que-senala-dedo-cara-blanco_1258-19147.jpg */; };
+		F5EF623425939A6100414515 /* mujer-mascara-medica-equipaje-smartphone-mientras-sube-escaleras-pandemia_23-2148789873.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF622F25939A5F00414515 /* mujer-mascara-medica-equipaje-smartphone-mientras-sube-escaleras-pandemia_23-2148789873.jpg */; };
+		F5EF62372593A5C700414515 /* Utilidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF62362593A5C700414515 /* Utilidades.swift */; };
+		F5EF623A2593B26800414515 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF62392593B26800414515 /* Datos.swift */; };
+		F5EF623D2593EA7D00414515 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF623C2593EA7D00414515 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +53,19 @@
 		F555CB7B257814D500C89B81 /* Provincia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provincia.swift; sourceTree = "<group>"; };
 		F555CB7E2578162E00C89B81 /* Provincias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provincias.swift; sourceTree = "<group>"; };
 		F555CB842578186D00C89B81 /* Restricciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restricciones.swift; sourceTree = "<group>"; };
+		F5663969259374ED003A6F20 /* RestriccionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestriccionesViewController.swift; sourceTree = "<group>"; };
 		F58C43A225822825001ADF18 /* PoblacionesFull.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PoblacionesFull.csv; sourceTree = "<group>"; };
 		F5904871257BAAB800C81EB4 /* covid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = covid.png; sourceTree = "<group>"; };
 		F5904877257CE65700C81EB4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F5B34663258C09A7008225B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F5EF622B25939A5D00414515 /* doctor-sostenga-antiseptico-mascaras-su-mano_1157-31550.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "doctor-sostenga-antiseptico-mascaras-su-mano_1157-31550.jpg"; sourceTree = "<group>"; };
+		F5EF622C25939A5D00414515 /* dos-colegas-tocandose-codos-al-aire-libre-pandemia_23-2148666394.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dos-colegas-tocandose-codos-al-aire-libre-pandemia_23-2148666394.jpg"; sourceTree = "<group>"; };
+		F5EF622D25939A5E00414515 /* vista-frontal-joven-mujer-sosteniendo-globos-colores_179666-8916.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vista-frontal-joven-mujer-sosteniendo-globos-colores_179666-8916.jpg"; sourceTree = "<group>"; };
+		F5EF622E25939A5E00414515 /* covid-19-concepto-salud-distanciamiento-social-chica-morena-atractiva-mascara-medica-que-senala-dedo-cara-blanco_1258-19147.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "covid-19-concepto-salud-distanciamiento-social-chica-morena-atractiva-mascara-medica-que-senala-dedo-cara-blanco_1258-19147.jpg"; sourceTree = "<group>"; };
+		F5EF622F25939A5F00414515 /* mujer-mascara-medica-equipaje-smartphone-mientras-sube-escaleras-pandemia_23-2148789873.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mujer-mascara-medica-equipaje-smartphone-mientras-sube-escaleras-pandemia_23-2148789873.jpg"; sourceTree = "<group>"; };
+		F5EF62362593A5C700414515 /* Utilidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilidades.swift; sourceTree = "<group>"; };
+		F5EF62392593B26800414515 /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		F5EF623C2593EA7D00414515 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +109,7 @@
 				F555CB562577F28200C89B81 /* LaunchScreen.storyboard */,
 				F555CB592577F28200C89B81 /* Info.plist */,
 				F5B34663258C09A7008225B4 /* LoginViewController.swift */,
+				F5663969259374ED003A6F20 /* RestriccionesViewController.swift */,
 			);
 			path = CovidApp;
 			sourceTree = "<group>";
@@ -98,6 +117,7 @@
 		F555CB652577F82800C89B81 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F5EF623C2593EA7D00414515 /* TableViewCell.swift */,
 				F555CB612577F81400C89B81 /* Poblacion.swift */,
 				F555CB692577FCA300C89B81 /* Poblaciones.swift */,
 				F555CB7B257814D500C89B81 /* Provincia.swift */,
@@ -105,6 +125,8 @@
 				F555CB842578186D00C89B81 /* Restricciones.swift */,
 				F54A06302578E8B800FB13B7 /* Restriccion.swift */,
 				F53BFE3F258CCC4F00D14544 /* Casos.swift */,
+				F5EF62362593A5C700414515 /* Utilidades.swift */,
+				F5EF62392593B26800414515 /* Datos.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,6 +134,11 @@
 		F555CB6C2577FF4600C89B81 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F5EF622E25939A5E00414515 /* covid-19-concepto-salud-distanciamiento-social-chica-morena-atractiva-mascara-medica-que-senala-dedo-cara-blanco_1258-19147.jpg */,
+				F5EF622B25939A5D00414515 /* doctor-sostenga-antiseptico-mascaras-su-mano_1157-31550.jpg */,
+				F5EF622C25939A5D00414515 /* dos-colegas-tocandose-codos-al-aire-libre-pandemia_23-2148666394.jpg */,
+				F5EF622F25939A5F00414515 /* mujer-mascara-medica-equipaje-smartphone-mientras-sube-escaleras-pandemia_23-2148789873.jpg */,
+				F5EF622D25939A5E00414515 /* vista-frontal-joven-mujer-sosteniendo-globos-colores_179666-8916.jpg */,
 				F5904871257BAAB800C81EB4 /* covid.png */,
 				F58C43A225822825001ADF18 /* PoblacionesFull.csv */,
 				F555CB7725780E7C00C89B81 /* poblaciones.csv */,
@@ -177,11 +204,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5904872257BAAB800C81EB4 /* covid.png in Resources */,
+				F5EF623325939A6100414515 /* covid-19-concepto-salud-distanciamiento-social-chica-morena-atractiva-mascara-medica-que-senala-dedo-cara-blanco_1258-19147.jpg in Resources */,
+				F5EF623025939A6100414515 /* doctor-sostenga-antiseptico-mascaras-su-mano_1157-31550.jpg in Resources */,
 				F555CB582577F28200C89B81 /* LaunchScreen.storyboard in Resources */,
 				F555CB552577F28200C89B81 /* Assets.xcassets in Resources */,
 				F555CB7825780E7C00C89B81 /* poblaciones.csv in Resources */,
+				F5EF623225939A6100414515 /* vista-frontal-joven-mujer-sosteniendo-globos-colores_179666-8916.jpg in Resources */,
 				F555CB532577F25300C89B81 /* Main.storyboard in Resources */,
+				F5EF623425939A6100414515 /* mujer-mascara-medica-equipaje-smartphone-mientras-sube-escaleras-pandemia_23-2148789873.jpg in Resources */,
 				F58C43A325822825001ADF18 /* PoblacionesFull.csv in Resources */,
+				F5EF623125939A6100414515 /* dos-colegas-tocandose-codos-al-aire-libre-pandemia_23-2148666394.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,9 +225,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F555CB502577F25300C89B81 /* ViewController.swift in Sources */,
+				F5EF623D2593EA7D00414515 /* TableViewCell.swift in Sources */,
 				F54A06312578E8B800FB13B7 /* Restriccion.swift in Sources */,
 				F5904878257CE65700C81EB4 /* GradientView.swift in Sources */,
+				F5EF62372593A5C700414515 /* Utilidades.swift in Sources */,
 				F555CB7F2578162E00C89B81 /* Provincias.swift in Sources */,
+				F5EF623A2593B26800414515 /* Datos.swift in Sources */,
 				F555CB622577F81400C89B81 /* Poblacion.swift in Sources */,
 				F555CB6A2577FCA300C89B81 /* Poblaciones.swift in Sources */,
 				F555CB7C257814D500C89B81 /* Provincia.swift in Sources */,
@@ -203,6 +238,7 @@
 				F555CB4C2577F25300C89B81 /* AppDelegate.swift in Sources */,
 				F555CB4E2577F25300C89B81 /* SceneDelegate.swift in Sources */,
 				F555CB852578186D00C89B81 /* Restricciones.swift in Sources */,
+				F566396A259374ED003A6F20 /* RestriccionesViewController.swift in Sources */,
 				F5B34664258C09A7008225B4 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

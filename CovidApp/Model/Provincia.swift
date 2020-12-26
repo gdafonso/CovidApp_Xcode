@@ -9,62 +9,19 @@ import Foundation
 
 class Provincia{
     // Atributos de la clase
-    private var _casosNuevos: Int
-    private var _casosTotales: Int
-    private var _fallecidos: Int
-    private var _hospitalizados: Int
-    private var _uci: Int    
     private var _provincia: String
-    
-    // Métodos para el atributo casosNuevos
-    var casosNuevos: Int {
-        get{
-            return _casosNuevos
-        }
-        set{
-            return _casosNuevos = newValue
-        }
-    }
-    
-    // Métodos para el atributo casosTotales
-    var casosTotales: Int {
-        get{
-            return _casosTotales
-        }
-        set{
-            return _casosTotales = newValue
-        }
-    }
-    
-    // Métodos para el atributo fallecidos
-    var fallecidos: Int {
-        get{
-            return _fallecidos
-        }
-        set{
-            return _fallecidos = newValue
-        }
-    }
-    
-    // Métodos para el atributo hospitalizados
-    var hospitalizados: Int {
-        get{
-            return _hospitalizados
-        }
-        set{
-            return _hospitalizados = newValue
-        }
-    }
-    
-    // Métodos para el atributo uci
-    var uci: Int {
-        get{
-            return _uci
-        }
-        set{
-            return _uci = newValue
-        }
-    }
+    private var _today_confirmed: Int64
+    private var _today_deaths: Int64
+    private var _today_intensive_care: Int64
+    private var _today_new_confirmed: Int64
+    private var _today_new_deaths: Int64
+    private var _today_new_intensive_care: Int64
+    private var _today_new_open_cases: Int64
+    private var _today_new_recovered: Int64
+    private var _today_new_total_hospitalised_patients: Int64
+    private var _today_open_cases: Int64
+    private var _today_recovered: Int64
+    private var _today_total_hospitalised_patients: Int64
     
     // Métodos para el atributo provincia
     var provincia: String {
@@ -77,18 +34,24 @@ class Provincia{
     }
     
     //Inicializador designado
-    init(casosNuevos: Int, casosTotales: Int, fallecidos: Int, hospitalizados: Int, uci: Int, provincia: String) {
-        // Guardamos datos aleatorios en cada una de los atributos
-        self._casosNuevos = Int.random(in: 0...500)
-        self._casosTotales = Int.random(in: 0...10000)
-        self._fallecidos = Int.random(in: 0...200)
-        self._hospitalizados = Int.random(in: 0...500)
-        self._uci = Int.random(in: 0...100)
+    init(provincia: String, today_confirmed: Int64, today_deaths: Int64, today_intensive_care: Int64, today_new_confirmed: Int64, today_new_deaths: Int64, today_new_intensive_care: Int64, today_new_open_cases: Int64, today_new_recovered: Int64, today_new_total_hospitalised_patients: Int64, today_open_cases: Int64, today_recovered: Int64, today_total_hospitalised_patients: Int64) {
         self._provincia = provincia
+        self._today_confirmed = today_confirmed
+        self._today_deaths = today_deaths
+        self._today_intensive_care = today_intensive_care
+        self._today_new_confirmed = today_new_confirmed
+        self._today_new_deaths = today_new_deaths
+        self._today_new_intensive_care = today_new_intensive_care
+        self._today_new_open_cases = today_new_open_cases
+        self._today_new_recovered = today_new_recovered
+        self._today_new_total_hospitalised_patients = today_new_total_hospitalised_patients
+        self._today_open_cases = today_open_cases
+        self._today_recovered = today_recovered
+        self._today_total_hospitalised_patients = today_total_hospitalised_patients
     }
     
     //Inicializador de conveniencia
     convenience init () {
-        self.init (casosNuevos: 0, casosTotales: 0, fallecidos: 0, hospitalizados: 0, uci: 0, provincia: "")
+        self.init(provincia: "", today_confirmed: 0, today_deaths: 0, today_intensive_care: 0, today_new_confirmed: 0, today_new_deaths: 0, today_new_intensive_care: 0, today_new_open_cases: 0, today_new_recovered: 0, today_new_total_hospitalised_patients: 0, today_open_cases: 0, today_recovered: 0, today_total_hospitalised_patients: 0)
     }
 }

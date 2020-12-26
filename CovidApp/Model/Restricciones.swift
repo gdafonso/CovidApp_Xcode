@@ -10,8 +10,9 @@ import Foundation
 class Restricciones{
     // Atributos de la clase
     private var _id: Int = 0
-    private var _tipo: Restriccion
+    private var _tipo: String
     private var _descripcion: String = ""
+    private var _imagen: String = ""
     
     // Métodos para el atributo id
     var id: Int {
@@ -34,7 +35,7 @@ class Restricciones{
     }
     
     // Métodos para el atributo tipo
-    var tipo: Restriccion {
+    var tipo: String {
         get{
             return _tipo
         }
@@ -43,15 +44,25 @@ class Restricciones{
         }
     }
     
+    var imagen: String {
+        get{
+            return _imagen
+        }
+        set{
+            return _imagen = newValue
+        }
+    }
+    
     //Inicializador designado
-    internal init(id: Int, tipo: Restriccion, descripcion: String) {
+    internal init(id: Int, tipo: String, descripcion: String, imagen: String) {
         self._id = id
         self._tipo = tipo
         self._descripcion = descripcion
+        self._imagen = imagen
     }
     
     //Inicializador de conveniencia
     convenience init () {
-        self.init (id: 0, tipo: Restriccion.Otros, descripcion: "")
+        self.init (id: 0, tipo: "Otros", descripcion: "", imagen: "")
     }
 }

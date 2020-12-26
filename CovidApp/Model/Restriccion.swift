@@ -7,15 +7,19 @@
 
 import Foundation
 
-enum Restriccion {
+enum Restriccion: String, CaseIterable {
     // Atributtos de la clase de tipo Enum
-    case Temporal
-    case Restauracion
-    case Reuniones
-    case Proteccion
-    case Otros
+    case Temporal = "Temporales"
+    case Restauracion = "Restauración"
+    case Reuniones = "Reuniones"
+    case Proteccion = "Protección"
+    case Otros = "Otros"
+    
+    static var get: String{
+            return allCases.randomElement()!.rawValue
+        }
     
     init() {
-        self = .Otros
+        self = Restriccion.Otros
     }
 }

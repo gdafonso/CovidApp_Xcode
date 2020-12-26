@@ -24,6 +24,7 @@ class Poblacion {
     private var _nombreComunidad: String
     private var _nombreProvincia: String
     private var _geopos: CLLocationCoordinate2D
+    private var _restricciones:[Restricciones]
     
     /// Definición de los métodos para el atributo nombre
     var codAutonomia: String {
@@ -144,6 +145,15 @@ class Poblacion {
             return _geopos = newValue
         }
     }
+    
+    var restricciones:[Restricciones] {
+            get{
+                return _restricciones
+            }
+            set {
+                return _restricciones = newValue
+            }
+        }
 
     /**
      Inicializador designado
@@ -156,7 +166,7 @@ class Poblacion {
         - geopos: CLLocation de coordenadas 2D que indica la latitud y longitud de la población
         - provincia: String con la provincia a la que pertenece la población
     */
-    init (codAutonomia: String, codProvincia: String, codMunicipio: String, codDc: String, codIne: String, codPostal: String, nombre: String, nombreComunidad: String, nombreProvincia: String, geopos: CLLocationCoordinate2D) {
+    init (codAutonomia: String, codProvincia: String, codMunicipio: String, codDc: String, codIne: String, codPostal: String, nombre: String, nombreComunidad: String, nombreProvincia: String, geopos: CLLocationCoordinate2D, restricciones: [Restricciones]) {
         /// Asignación de valores
         self._codAutonomia = codAutonomia
         self._codProvincia = codProvincia
@@ -168,6 +178,7 @@ class Poblacion {
         self._nombreComunidad = nombreComunidad
         self._nombreProvincia = nombreProvincia
         self._geopos = geopos
+        self._restricciones = restricciones
     }
     
     /**
@@ -177,7 +188,7 @@ class Poblacion {
     */
     convenience init() {
         // Asignación de parámetros por defecto
-        self.init(codAutonomia: "", codProvincia: "", codMunicipio: "", codDc: "", codIne: "", codPostal: "", nombre: "", nombreComunidad: "", nombreProvincia: "", geopos: CLLocationCoordinate2DMake(0.0, 0.0))
+        self.init(codAutonomia: "", codProvincia: "", codMunicipio: "", codDc: "", codIne: "", codPostal: "", nombre: "", nombreComunidad: "", nombreProvincia: "", geopos: CLLocationCoordinate2DMake(0.0, 0.0), restricciones: [])
         }
 
 }

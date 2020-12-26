@@ -7,17 +7,13 @@
 
 import Foundation
 
-class DatosProvincias {        
+class Provincias {
     init() {
         var provincias = [Provincia]()
         // Leemos el CSV completo
         let poblaciones = Poblaciones.init()
         
-        // Rellenamos el array con las provincias (falta comprobar que no se repitan)
-        for item in poblaciones.poblaciones {
-            let provincia = Provincia(casosNuevos: Int.random(in: 0...500), casosTotales: Int.random(in: 0...10000), fallecidos: Int.random(in: 0...200), hospitalizados: Int.random(in: 0...500), uci: Int.random(in: 0...100), provincia: item.nombreProvincia)
-            provincias.append(provincia)
-        }
+        // Consulta de datos via API
+
     }
-    
 }
