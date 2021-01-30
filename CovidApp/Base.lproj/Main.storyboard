@@ -473,11 +473,17 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6b-c9-zf9">
                                 <rect key="frame" x="161" y="817" width="93" height="30"/>
-                                <state key="normal" title="Restricciones"/>
+                                <state key="normal" title="Más datos"/>
                                 <connections>
                                     <segue destination="e7g-8l-JPb" kind="show" id="FL4-5D-qTy"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANf-YH-Jw5">
+                                <rect key="frame" x="186" y="192" width="42" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -489,6 +495,7 @@
                             <constraint firstItem="xIf-TT-hhO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="48I-k8-r49"/>
                             <constraint firstItem="BOI-UC-cES" firstAttribute="leading" secondItem="LOD-zl-LIj" secondAttribute="trailing" constant="9" id="5QO-Tl-eYS"/>
                             <constraint firstItem="sfX-A5-sqF" firstAttribute="top" secondItem="MeT-h3-Ygw" secondAttribute="bottom" constant="8" symbolic="YES" id="5em-2M-CF3"/>
+                            <constraint firstItem="ANf-YH-Jw5" firstAttribute="top" secondItem="l0f-nh-sKQ" secondAttribute="bottom" constant="23" id="6Cg-DR-h7e"/>
                             <constraint firstItem="5hJ-m1-6zX" firstAttribute="top" secondItem="l0f-nh-sKQ" secondAttribute="bottom" constant="14" id="6Rq-Mp-iHy"/>
                             <constraint firstItem="wlx-5c-vkI" firstAttribute="top" secondItem="CLd-bf-EO4" secondAttribute="bottom" constant="8" symbolic="YES" id="7Rl-Wb-0fH"/>
                             <constraint firstItem="KPw-lr-xzO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="7hh-X1-yvX"/>
@@ -521,6 +528,7 @@
                             <constraint firstItem="HuD-Gh-gUd" firstAttribute="top" secondItem="j3A-xn-IAh" secondAttribute="bottom" constant="8" symbolic="YES" id="Kra-pL-bxt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="By1-l7-W7v" secondAttribute="leading" constant="9" id="M71-CX-cVY"/>
                             <constraint firstItem="By1-l7-W7v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="NV2-F0-Xl8"/>
+                            <constraint firstItem="MeT-h3-Ygw" firstAttribute="firstBaseline" secondItem="ANf-YH-Jw5" secondAttribute="baseline" constant="28.5" symbolType="layoutAnchor" id="NWX-M9-yGE"/>
                             <constraint firstItem="Xjl-Sa-yHh" firstAttribute="top" secondItem="5hJ-m1-6zX" secondAttribute="bottom" constant="8" symbolic="YES" id="Ndd-64-mIi"/>
                             <constraint firstItem="JKT-YN-1MY" firstAttribute="top" secondItem="tna-Qg-ypV" secondAttribute="bottom" constant="8" symbolic="YES" id="OQc-pE-AcW"/>
                             <constraint firstItem="BOI-UC-cES" firstAttribute="top" secondItem="9zV-8r-T8j" secondAttribute="bottom" constant="7" id="OhW-Aq-6ew"/>
@@ -538,6 +546,7 @@
                             <constraint firstItem="tna-Qg-ypV" firstAttribute="leading" secondItem="AqR-sk-QVX" secondAttribute="trailing" constant="164" id="VHF-rS-iWi"/>
                             <constraint firstItem="sfX-A5-sqF" firstAttribute="top" secondItem="MeT-h3-Ygw" secondAttribute="bottom" constant="8" symbolic="YES" id="WTb-oA-rRR"/>
                             <constraint firstItem="Xjl-Sa-yHh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="317" id="WiX-ne-eXI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ANf-YH-Jw5" secondAttribute="trailing" constant="186" id="Wse-er-6UJ"/>
                             <constraint firstItem="Xjl-Sa-yHh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="Wxs-Qd-93h"/>
                             <constraint firstItem="blF-xw-8zv" firstAttribute="top" secondItem="JKT-YN-1MY" secondAttribute="bottom" constant="8" symbolic="YES" id="X5P-Ux-KQ0"/>
                             <constraint firstItem="AqR-sk-QVX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XoC-GD-uJn"/>
@@ -578,6 +587,7 @@
                             <constraint firstItem="8TK-Xz-0Nf" firstAttribute="top" secondItem="ey3-aV-6Ud" secondAttribute="bottom" constant="8" symbolic="YES" id="oGO-Lj-0Kn"/>
                             <constraint firstItem="By1-l7-W7v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="oke-pS-CCG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="By1-l7-W7v" secondAttribute="trailing" constant="499" id="okn-2t-0f5"/>
+                            <constraint firstItem="ANf-YH-Jw5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="186" id="p9h-Zc-X6E"/>
                             <constraint firstItem="l0f-nh-sKQ" firstAttribute="top" secondItem="KPw-lr-xzO" secondAttribute="bottom" constant="8" symbolic="YES" id="pDp-Dk-QYb"/>
                             <constraint firstItem="7RK-hT-yqG" firstAttribute="leading" secondItem="ZEq-Gg-JeL" secondAttribute="trailing" constant="54" id="qu2-gG-3HL"/>
                             <constraint firstItem="IpT-Ch-K90" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="r2E-Qu-gks"/>
@@ -732,17 +742,17 @@
                                 <exclude reference="X5P-Ux-KQ0"/>
                                 <exclude reference="QrM-SN-StO"/>
                                 <exclude reference="3uW-N1-Jfl"/>
+                                <include reference="FyH-Ru-c9O"/>
                                 <exclude reference="bdp-rc-THv"/>
+                                <include reference="EMc-Dl-DEj"/>
+                                <include reference="ik1-Vt-bq0"/>
                                 <exclude reference="CwE-fC-VfR"/>
                                 <exclude reference="ney-bv-Du2"/>
                                 <exclude reference="xAg-U3-IjG"/>
+                                <include reference="EQP-cx-ep7"/>
                                 <exclude reference="mmI-qn-ju5"/>
                                 <exclude reference="IPL-CO-zbD"/>
                                 <exclude reference="aOz-vz-r7q"/>
-                                <include reference="FyH-Ru-c9O"/>
-                                <include reference="EMc-Dl-DEj"/>
-                                <include reference="ik1-Vt-bq0"/>
-                                <include reference="EQP-cx-ep7"/>
                             </mask>
                         </variation>
                     </view>
@@ -764,6 +774,7 @@
                         <outlet property="lblToday_open_cases" destination="HpR-dk-CKc" id="PLV-9L-OuO"/>
                         <outlet property="lblToday_recovered" destination="j3A-xn-IAh" id="2M2-tM-Ygi"/>
                         <outlet property="lblToday_total_hospitalised_patients" destination="9zV-8r-T8j" id="ZOQ-OT-rkL"/>
+                        <outlet property="lblUrl" destination="ANf-YH-Jw5" id="PoZ-sT-1QU"/>
                         <outlet property="mkmvMap" destination="By1-l7-W7v" id="OIn-gD-9Xy"/>
                         <outlet property="txtCP" destination="KPw-lr-xzO" id="PWC-fH-iSb"/>
                     </connections>
@@ -772,15 +783,27 @@
             </objects>
             <point key="canvasLocation" x="71" y="-83"/>
         </scene>
-        <!--Nivel Nacional-->
+        <!--Web-->
         <scene sceneID="CII-Vq-PG4">
             <objects>
                 <viewController storyboardIdentifier="Nivel_Nacional" id="0Sp-65-EkP" customClass="RestriccionesViewController" customModule="CovidApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2kG-pU-uLK" customClass="Gradient" customModule="CovidApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wbe-Hu-PtF">
+                                <rect key="frame" x="20" y="88" width="374" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="fKu-UB-Ino"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Wbe-Hu-PtF" firstAttribute="leading" secondItem="fKu-UB-Ino" secondAttribute="leading" constant="20" id="KTR-Pc-XZT"/>
+                            <constraint firstItem="fKu-UB-Ino" firstAttribute="bottom" secondItem="Wbe-Hu-PtF" secondAttribute="bottom" id="hs9-sL-qId"/>
+                            <constraint firstItem="Wbe-Hu-PtF" firstAttribute="top" secondItem="fKu-UB-Ino" secondAttribute="top" id="kCh-ck-Hix"/>
+                            <constraint firstItem="fKu-UB-Ino" firstAttribute="trailing" secondItem="Wbe-Hu-PtF" secondAttribute="trailing" constant="20" id="yRA-rH-ZdK"/>
+                        </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="startColor">
                                 <color key="value" systemColor="systemGreenColor"/>
@@ -790,14 +813,14 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Nivel Nacional" id="A5m-tk-d1v"/>
+                    <tabBarItem key="tabBarItem" title="Web" id="A5m-tk-d1v"/>
                     <navigationItem key="navigationItem" id="feR-Ba-PGK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OI4-iw-spx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2017" y="200"/>
+            <point key="canvasLocation" x="2015.9420289855075" y="199.55357142857142"/>
         </scene>
-        <!--Nivel Provincia-->
+        <!--Restricciones-->
         <scene sceneID="dUu-0D-g9N">
             <objects>
                 <viewController storyboardIdentifier="Nivel_Provincia" id="WZK-34-fcR" customClass="RestriccionesViewController" customModule="CovidApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -881,7 +904,7 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Nivel Provincia" id="cb7-a3-w20"/>
+                    <tabBarItem key="tabBarItem" title="Restricciones" id="cb7-a3-w20"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wYb-GJ-xCh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

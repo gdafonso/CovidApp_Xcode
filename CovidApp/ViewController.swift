@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblToday_open_cases: UILabel!
     @IBOutlet weak var lblToday_recovered: UILabel!
     @IBOutlet weak var lblToday_total_hospitalised_patients: UILabel!
+    @IBOutlet weak var lblUrl: UILabel!
     
     var text: String!
     var poblaciones: Poblaciones!
@@ -55,6 +56,9 @@ class ViewController: UIViewController {
         }
         if let comn = lblComunidad.text {
             receiverVC.comunidad = comn
+        }
+        if let url_enviar = lblUrl.text {
+            receiverVC.url = URL(string: url_enviar)
         }
         if restricciones.count != 0 {
             receiverVC.restricciones = restricciones
@@ -92,6 +96,7 @@ class ViewController: UIViewController {
         
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: .main)
         let url = URL(string:   "https://api.covid19tracking.narrativa.com/api/" + query_date + "/country/Spain/region/" + comunidad)!
+        self.lblUrl.text = url.absoluteString
         let task = session.dataTask(with: url, completionHandler: { (data: Data?, response: URLResponse?, error: Error?) -> Void in
                 guard let data = data else {
                     //completion(nil)

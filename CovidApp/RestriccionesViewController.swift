@@ -11,6 +11,7 @@ import UIKit
 class RestriccionesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var comunidad: String!
     var provincia: String!
+    var url: URL!
     var restricciones = [Restricciones]()
     
     override func viewDidLoad() {

@@ -96,9 +96,9 @@ public class Utilidades {
                     let restrict = creaRestriccion(id: Int(columns[5]) ?? 0)
                     restricciones.append(restrict)
                 }
-            
+                let direccionweb = URL(string: "https://www.google.es/search?q=" + columns[5])
                 // Creamos la población con todos sus atributos
-                let poblacion = Poblacion (codAutonomia: columns[0], codProvincia: columns[1], codMunicipio: columns[2], codDc: columns[3], codIne: columns[4], codPostal: columns[5], nombre: columns[6], nombreComunidad: columns[7], nombreProvincia: columns[8], geopos: CLLocationCoordinate2DMake(Double(latitud) ?? 0.0,Double(longitud) ?? 0.0), restricciones: restricciones)
+                let poblacion = Poblacion (codAutonomia: columns[0], codProvincia: columns[1], codMunicipio: columns[2], codDc: columns[3], codIne: columns[4], codPostal: columns[5], nombre: columns[6], nombreComunidad: columns[7], nombreProvincia: columns[8], url: direccionweb!, geopos: CLLocationCoordinate2DMake(Double(latitud) ?? 0.0,Double(longitud) ?? 0.0), restricciones: restricciones)
                     
                 // Añadimos la población al array
                 poblaciones.append(poblacion)

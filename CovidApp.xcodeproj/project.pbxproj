@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8BEC1718EEFE6186E9B2832 /* Pods_CovidApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4ED28599DBC4F8950DC918 /* Pods_CovidApp.framework */; };
 		F53BFE40258CCC4F00D14544 /* Casos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53BFE3F258CCC4F00D14544 /* Casos.swift */; };
+		F5475B6125A86E6B003254C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5475B6025A86E6B003254C5 /* GoogleService-Info.plist */; };
 		F54A06312578E8B800FB13B7 /* Restriccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54A06302578E8B800FB13B7 /* Restriccion.swift */; };
 		F555CB4C2577F25300C89B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB4B2577F25300C89B81 /* AppDelegate.swift */; };
 		F555CB4E2577F25300C89B81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555CB4D2577F25300C89B81 /* SceneDelegate.swift */; };
@@ -26,6 +28,7 @@
 		F5904872257BAAB800C81EB4 /* covid.png in Resources */ = {isa = PBXBuildFile; fileRef = F5904871257BAAB800C81EB4 /* covid.png */; };
 		F5904878257CE65700C81EB4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5904877257CE65700C81EB4 /* GradientView.swift */; };
 		F5B34664258C09A7008225B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B34663258C09A7008225B4 /* LoginViewController.swift */; };
+		F5C1E0F3259759620066B2D5 /* WQCharts in Frameworks */ = {isa = PBXBuildFile; productRef = F5C1E0F2259759620066B2D5 /* WQCharts */; };
 		F5EF623025939A6100414515 /* doctor-sostenga-antiseptico-mascaras-su-mano_1157-31550.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF622B25939A5D00414515 /* doctor-sostenga-antiseptico-mascaras-su-mano_1157-31550.jpg */; };
 		F5EF623125939A6100414515 /* dos-colegas-tocandose-codos-al-aire-libre-pandemia_23-2148666394.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF622C25939A5D00414515 /* dos-colegas-tocandose-codos-al-aire-libre-pandemia_23-2148666394.jpg */; };
 		F5EF623225939A6100414515 /* vista-frontal-joven-mujer-sosteniendo-globos-colores_179666-8916.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF622D25939A5E00414515 /* vista-frontal-joven-mujer-sosteniendo-globos-colores_179666-8916.jpg */; };
@@ -37,7 +40,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E4ED28599DBC4F8950DC918 /* Pods_CovidApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2219EFBCFAAF8BDC56B4BD /* Pods-CovidApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidApp.debug.xcconfig"; path = "Target Support Files/Pods-CovidApp/Pods-CovidApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B6F1A774AA20CD3BFA58645C /* Pods-CovidApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidApp.release.xcconfig"; path = "Target Support Files/Pods-CovidApp/Pods-CovidApp.release.xcconfig"; sourceTree = "<group>"; };
 		F53BFE3F258CCC4F00D14544 /* Casos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Casos.swift; sourceTree = "<group>"; };
+		F5475B6025A86E6B003254C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F54A06302578E8B800FB13B7 /* Restriccion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restriccion.swift; sourceTree = "<group>"; };
 		F555CB482577F25300C89B81 /* CovidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F555CB4B2577F25300C89B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,17 +80,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C1E0F3259759620066B2D5 /* WQCharts in Frameworks */,
+				E8BEC1718EEFE6186E9B2832 /* Pods_CovidApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		158D5A112921CD866178F16B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B2219EFBCFAAF8BDC56B4BD /* Pods-CovidApp.debug.xcconfig */,
+				B6F1A774AA20CD3BFA58645C /* Pods-CovidApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F48545313867741B8FB5B090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4ED28599DBC4F8950DC918 /* Pods_CovidApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F555CB3F2577F25200C89B81 = {
 			isa = PBXGroup;
 			children = (
 				F555CB4A2577F25300C89B81 /* CovidApp */,
 				F555CB492577F25300C89B81 /* Products */,
+				158D5A112921CD866178F16B /* Pods */,
+				F48545313867741B8FB5B090 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +135,7 @@
 				F5904877257CE65700C81EB4 /* GradientView.swift */,
 				F555CB542577F28200C89B81 /* Assets.xcassets */,
 				F555CB562577F28200C89B81 /* LaunchScreen.storyboard */,
+				F5475B6025A86E6B003254C5 /* GoogleService-Info.plist */,
 				F555CB592577F28200C89B81 /* Info.plist */,
 				F5B34663258C09A7008225B4 /* LoginViewController.swift */,
 				F5663969259374ED003A6F20 /* RestriccionesViewController.swift */,
@@ -153,15 +182,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F555CB5C2577F28200C89B81 /* Build configuration list for PBXNativeTarget "CovidApp" */;
 			buildPhases = (
+				F7DEE36C7CCAD8E4DC7CFA7E /* [CP] Check Pods Manifest.lock */,
 				F555CB442577F25300C89B81 /* Sources */,
 				F555CB452577F25300C89B81 /* Frameworks */,
 				F555CB462577F25300C89B81 /* Resources */,
+				8A912710413C2CB123F4353B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CovidApp;
+			packageProductDependencies = (
+				F5C1E0F2259759620066B2D5 /* WQCharts */,
+			);
 			productName = CovidApp;
 			productReference = F555CB482577F25300C89B81 /* CovidApp.app */;
 			productType = "com.apple.product-type.application";
@@ -189,6 +223,9 @@
 				Base,
 			);
 			mainGroup = F555CB3F2577F25200C89B81;
+			packageReferences = (
+				F5C1E0F1259759610066B2D5 /* XCRemoteSwiftPackageReference "WQCharts-iOS" */,
+			);
 			productRefGroup = F555CB492577F25300C89B81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -208,6 +245,7 @@
 				F5EF623025939A6100414515 /* doctor-sostenga-antiseptico-mascaras-su-mano_1157-31550.jpg in Resources */,
 				F555CB582577F28200C89B81 /* LaunchScreen.storyboard in Resources */,
 				F555CB552577F28200C89B81 /* Assets.xcassets in Resources */,
+				F5475B6125A86E6B003254C5 /* GoogleService-Info.plist in Resources */,
 				F555CB7825780E7C00C89B81 /* poblaciones.csv in Resources */,
 				F5EF623225939A6100414515 /* vista-frontal-joven-mujer-sosteniendo-globos-colores_179666-8916.jpg in Resources */,
 				F555CB532577F25300C89B81 /* Main.storyboard in Resources */,
@@ -218,6 +256,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A912710413C2CB123F4353B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidApp/Pods-CovidApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidApp/Pods-CovidApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidApp/Pods-CovidApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DEE36C7CCAD8E4DC7CFA7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CovidApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F555CB442577F25300C89B81 /* Sources */ = {
@@ -383,6 +463,7 @@
 		};
 		F555CB5D2577F28200C89B81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2219EFBCFAAF8BDC56B4BD /* Pods-CovidApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -404,6 +485,7 @@
 		};
 		F555CB5E2577F28200C89B81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F1A774AA20CD3BFA58645C /* Pods-CovidApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +527,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5C1E0F1259759610066B2D5 /* XCRemoteSwiftPackageReference "WQCharts-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoderWQYao/WQCharts-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5C1E0F2259759620066B2D5 /* WQCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C1E0F1259759610066B2D5 /* XCRemoteSwiftPackageReference "WQCharts-iOS" */;
+			productName = WQCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F555CB402577F25200C89B81 /* Project object */;
 }
